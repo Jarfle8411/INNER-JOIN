@@ -1,0 +1,9 @@
+SELECT *
+
+FROM dbo.Orders
+
+INNER JOIN dbo.Persons
+
+ON dbo.Orders.Persons_id=dbo.Persons.Persons_id
+
+ORDER BY LastName
